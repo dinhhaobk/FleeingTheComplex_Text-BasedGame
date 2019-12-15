@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: B5+F3 - The Yard (Captured) (Failed)
+  m_EditorClassIdentifier: 
+  titleText: The Yard (Captured) (Failed)
+  storyText: "You use a powerful force to shoot the warden. But due to the strong
+    force, both Ellie and the warden are kicked away. You FAILED!\r\n\r\nP/s: Whoa
+    whoa whoa! You can't go mixing fighting game references like that!\r\n\r\n1. Try
+    again.\r\n2. Back to menu."
+  nextStates:
+  - {fileID: 11400000, guid: d7e2a9b2e65cecb478a2f7f421f3ebc7, type: 2}
+  - {fileID: 11400000, guid: 45a009ba14d96114da0b4d63b18026b8, type: 2}
+  isWin: 0
+  isFailed: 1
+  hasTimer: 0
+  timeValue: 0

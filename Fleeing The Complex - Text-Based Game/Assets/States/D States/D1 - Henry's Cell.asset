@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: D1 - Henry's Cell
+  m_EditorClassIdentifier: 
+  titleText: Henry's Cell
+  storyText: "You do nothing, just sit there and wait. After a while, you are taken
+    to your cell. Inside the cell is a bed and a window made of tempered glass.\r\n\r\nNow
+    you have to find a way to get out of this cell.\r\n\r\nWhat will you choose?\r\n\r\n1.
+    Teleporter - A device helps you move to another place.\r\n2. Sonic Pulse - A device
+    can emit a loud sound pulse.\r\n3. Laser Plane - A device can emit a laser that
+    cuts through everything\r\n4. Fake Illness - You pretend to be sick\r\n5. Cookie
+    - Something unexpected happens if you eat this."
+  nextStates:
+  - {fileID: 11400000, guid: 7e6c8a1b055eadb42902fc885f343e48, type: 2}
+  - {fileID: 11400000, guid: 63406e950c6601546adbe945bcaea09d, type: 2}
+  - {fileID: 11400000, guid: 9ee2eaf98a0448f4f86739e218991fba, type: 2}
+  - {fileID: 11400000, guid: 70ed23dea07842d42914134dd732976c, type: 2}
+  - {fileID: 11400000, guid: 33d0205d833330340bb3e352777de25d, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

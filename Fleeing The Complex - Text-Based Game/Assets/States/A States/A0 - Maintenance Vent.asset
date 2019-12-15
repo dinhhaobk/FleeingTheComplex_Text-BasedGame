@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A0 - Maintenance Vent
+  m_EditorClassIdentifier: 
+  titleText: Maintenance Vent
+  storyText: "While the warden doesn't notice, you ask the girl to push herself up
+    to reach for the vent cap. \r\n\r\nYou climb up there and slam your handcuffs
+    against the rocks to break it. \r\n\r\nYou are in the vent now. What will you
+    do next?\r\n\r\n1. Go left - You find your way out and leave the girl behind.\r\n2.
+    Pull up - You help the girl to climb up."
+  nextStates:
+  - {fileID: 11400000, guid: ff628975664a06d4a9d1f31f24eecdae, type: 2}
+  - {fileID: 11400000, guid: 2a10db7aa775ca640822be163dbd80a5, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

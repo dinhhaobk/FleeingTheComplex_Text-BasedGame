@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: B1 - Storage Room (Ellie)
+  m_EditorClassIdentifier: 
+  titleText: 'Storage Room (Ellie) '
+  storyText: "You help the girl to climb with you. She is very grateful for this.
+    After that, both of them find the way to the storage room. \r\n\r\nIn front of
+    you are two guards of the storage door. One holds the spear and the other is empty-handed.\r\n\r\nWhat
+    will you do to pass these guards?\r\n\r\n1. Distract - Do something stupid to
+    distract them.\r\n2. Synchronized Takedown - Each person handles one guard.\r\n3.
+    Bounce Bros - One person jumps, one supports to pass them.\r\n4. Tall Guy - Two
+    people pretend to be a tall man."
+  nextStates:
+  - {fileID: 11400000, guid: 04c8c7c48d71c6744ac9c7f5ee0b2603, type: 2}
+  - {fileID: 11400000, guid: e1daa99e77573154ebe3d19848e7ead4, type: 2}
+  - {fileID: 11400000, guid: 9782e60eeb18ebc4cb623627be109d33, type: 2}
+  - {fileID: 11400000, guid: 3c2663707bf26ca449d4e8016a6b9b7d, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

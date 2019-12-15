@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: S0 - Fleeing The Complex
+  m_EditorClassIdentifier: 
+  titleText: Fleeing The Complex
+  storyText: "Welcome to this game!!!\r\n\r\nThis is a choose for your own adventure
+    game. Be careful for what you are choosing!\r\n\r\nAt each stage you'll be asked
+    to push a key on the keyboard, for example: 1, 2, 3 or 4.\r\n\r\nYou can press
+    \"SpaceBar\" to see Achievements.\r\n\r\nPress \"1\" to continue."
+  nextStates:
+  - {fileID: 11400000, guid: ffd8c63729a8b8742b5eb58b9e780e55, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

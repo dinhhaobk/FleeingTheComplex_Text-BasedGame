@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: C4 - Behind the Truck
+  m_EditorClassIdentifier: 
+  titleText: Behind the Truck
+  storyText: "You fight with the guard named Karlov, you stab a fatal blow and win.\r\n\r\nAfter
+    that, you run to the prison entrance and hide behind a nearby truck. There are
+    3 guards standing there.\r\n\r\nWhat will you do?\r\n\r\n1. Sandwich - Eating
+    this will make you bigger and stronger.\r\n2. Truck - You use a key to drive the
+    truck\r\n3. Costume - You disguise as a snowman."
+  nextStates:
+  - {fileID: 11400000, guid: 4c551ce946e2d434a9af7a49329072cb, type: 2}
+  - {fileID: 11400000, guid: 62f9758610aec0c4895b65b79d902caf, type: 2}
+  - {fileID: 11400000, guid: f1b0d65435b8fb24c8edce838688bab3, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

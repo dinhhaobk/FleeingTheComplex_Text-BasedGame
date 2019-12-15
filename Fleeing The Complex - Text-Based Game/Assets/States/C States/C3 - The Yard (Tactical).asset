@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: C3 - The Yard (Tactical)
+  m_EditorClassIdentifier: 
+  titleText: The Yard (Tactical)
+  storyText: "You are invisible and easily escape by elevator, while two guards are
+    wondering where you are. The warden are very angry and orders a notice to track
+    down Henry.\r\n\r\nNow you're in the yard and you're finding your way out. There
+    are 4 positions that you can choose.\r\n\r\nWhich ways will you choose?\r\n\r\n1.
+    Top Middle - Boxing competition with a big guy.\r\n2. Bottom Left - Hiding into
+    a nearby storehouse.\r\n3. Bottom Middle - Fencing with a guard.\r\n4. Bottom
+    Right - Duel with a guard riding tank."
+  nextStates:
+  - {fileID: 11400000, guid: 7b3775ddaf2ff00458663cfe00f8d642, type: 2}
+  - {fileID: 11400000, guid: 943001026eb6ef74c9833f6faf21d417, type: 2}
+  - {fileID: 11400000, guid: 5ee509a1c1982144681600cf8ccaf163, type: 2}
+  - {fileID: 11400000, guid: cbf3b7cc346a2544193757a78e51c574, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: D5 - Helipad
+  m_EditorClassIdentifier: 
+  titleText: Helipad
+  storyText: "Charles launchs the mini helicopter. It approachs the guard and launchs
+    a wire pulling him down the cliff.\r\n\r\nYou quickly climb the helipad, Charles
+    is also preparing to land. There are two guards there, one with a bazooka and
+    the other with a gun. They are about to shoot at the helicopter.\r\n\r\nWhat ways
+    will you choose?\r\n\r\n1. Go straight - Run straight to the helipad to find a
+    way to climb the helicopter.\r\n2. Left -  Handle the guard with a bazooka.\r\n3.
+    Right - Handle the guard with a gun.\r\n4. Jump down - Jump into a cliff so that
+    Charles can catch you."
+  nextStates:
+  - {fileID: 11400000, guid: 46ab5003646df784cbee6847bc5df8e2, type: 2}
+  - {fileID: 11400000, guid: eabe7a7f70ace224780664228816e8f1, type: 2}
+  - {fileID: 11400000, guid: 5851060e57798fc48aadb282ec4f3248, type: 2}
+  - {fileID: 11400000, guid: bd9b5cc4319d32e4d8db7943efb76500, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

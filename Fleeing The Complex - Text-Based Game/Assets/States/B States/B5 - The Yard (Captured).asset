@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: B5 - The Yard (Captured)
+  m_EditorClassIdentifier: 
+  titleText: The Yard (Captured)
+  storyText: "You toss the hat over to the other side to make two guards pay attention.
+    They check and find a group of prisoners hiding. Enlist at that time, both use
+    the elevator and go out the yard of prison.\r\n\r\nThe scene is very chaotic,
+    the prisoners run everywhere. While not paying attention, Ellie was arrested by
+    the warden.\r\n\r\nWhat will you do to rescue Ellie?\r\n\r\n1. Adrenaline - A
+    hormone helps you run faster.\r\n2. Make a Face - Making a confusing face.\r\n3.
+    The KNEE - Use a strong force from the leg."
+  nextStates:
+  - {fileID: 11400000, guid: 7ceecbf59d534e0428cb15792adc9702, type: 2}
+  - {fileID: 11400000, guid: e8933e67d3aab514d9f37aed681890dc, type: 2}
+  - {fileID: 11400000, guid: 5aa388512b0e2c54b97b3c6f027a0764, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

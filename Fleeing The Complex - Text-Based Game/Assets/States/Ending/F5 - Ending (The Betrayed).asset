@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: F5 - Ending (The Betrayed)
+  m_EditorClassIdentifier: 
+  titleText: Ending (The Betrayed)
+  storyText: "You pick up momentum and launch out of the cafeteria with a scooter.
+    The force is not enough, so you drop the scooter to jump to the wall. When you
+    think you can't hold it, the leader propmtly takes your hand.\r\nAt this moment,
+    he began to reveal his true form. He purposely set you up to be taken to prison
+    so he can become a leader. Then he let the hand off, leaving you fall into the
+    abyss...\r\n\r\nAchievement: The Betrayed.\r\n\r\nThanks you for playing!!!\r\n\r\n1.
+    Back to menu"
+  nextStates:
+  - {fileID: 11400000, guid: 45a009ba14d96114da0b4d63b18026b8, type: 2}
+  isWin: 1
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

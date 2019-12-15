@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: D2 - Phone a Friend
+  m_EditorClassIdentifier: 
+  titleText: Phone a Friend
+  storyText: "You use a laser to make a hole in the ground. You fall under the office
+    of a guard. Accidentally the stone falls to the guard's head which makes him unconscious.\r\n\r\nYou
+    take the phone from inside him and plan to call someone for their rescue.\r\n\r\nWho
+    will you call to rescue you?\r\n\r\n1. Government - Call Charles - an old friend
+    that is currently working for the government.\r\n2. Toppat Clan -  Call your assistant
+    during your time as the leader of the Toppat clan."
+  nextStates:
+  - {fileID: 11400000, guid: 7648aa5ded612ca46ae9337dcf92c2b0, type: 2}
+  - {fileID: 11400000, guid: 597de286560ef834e90edff554f71f69, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

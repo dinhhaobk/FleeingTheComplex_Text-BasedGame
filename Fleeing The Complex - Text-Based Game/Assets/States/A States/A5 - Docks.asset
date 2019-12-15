@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A5 - Docks
+  m_EditorClassIdentifier: 
+  titleText: Docks
+  storyText: "You use helium gas to pump it into your head. At this point, you can
+    float in the air. You slowly fan to the end of the pipe. You get out and get to
+    the docks. \r\n\r\nYou hide behind empty boxes. In front of you there are two
+    guards, including one with a gun.\r\n\r\nWhat will you do to pass these guards?\r\n\r\n1.
+    Box - You get into a box.\r\n2. Leaf - You turn into a flying fox.\r\n3. Shadozer
+    - You use a device that can help you enter your own shadow."
+  nextStates:
+  - {fileID: 11400000, guid: 9c3a23c334027694abd8217587d5c1ec, type: 2}
+  - {fileID: 11400000, guid: bf41a6e979fb82d4dae10b4de71b6a8a, type: 2}
+  - {fileID: 11400000, guid: 4a189569d2a2ac04185c9dff86f2e8a1, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

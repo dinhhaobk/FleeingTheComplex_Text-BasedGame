@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: D3 - Cafeteria (Government)
+  m_EditorClassIdentifier: 
+  titleText: Cafeteria (Government)
+  storyText: "You call Charles and ask him for help. He is currently driving a helicopter
+    nearby and will be there soon. Now you have to find a way to get to the helipad
+    on the prison's terrace.\r\n\r\nNow you find your way into the cafeteria and plan
+    to go to a door that can go up to the heliport. Suddenly, a guard discovers you.\r\n\r\nWho
+    will you do to escape?\r\n\r\n1. Bubble Shield - Create a circle that protects
+    you from bullets.\r\n2. Earthbend -  Control the rocks and attack them.\r\n3.
+    Flash - Flash through the wall."
+  nextStates:
+  - {fileID: 11400000, guid: 454accb72ed47764ea1ca87410ec8168, type: 2}
+  - {fileID: 11400000, guid: 2f21f0c6e0c200e4a924f73dc2b9900b, type: 2}
+  - {fileID: 11400000, guid: a8ed1c05ed0bc4e4c8d6be9de019f44c, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

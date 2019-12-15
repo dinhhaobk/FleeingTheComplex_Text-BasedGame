@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A4 - Bowels of the Complex
+  m_EditorClassIdentifier: 
+  titleText: Bowels of the Complex
+  storyText: "You just jumped down and blew bubbles. Fortunately, as soon as the ground
+    is touched, the bubble is large enough to hold you gently.\r\n\r\nYou are now
+    in the bowels of The Complex. In front of you is quite a deep pool. Only one pipeline
+    ran through a vent on the other side.\r\n\r\nWhat will you do to across the other
+    side?\r\n\r\n1. Helium - You pump helium gas on yourself to be able to float in
+    the air.\r\n2. Balance - You keep your balance while passing.\r\n3. Plunger Boots
+    - You use a sticky boots."
+  nextStates:
+  - {fileID: 11400000, guid: 8ffd7f2288c65b84cbfa89be7b118ee5, type: 2}
+  - {fileID: 11400000, guid: b0aaac087d61a904ebb966d2c03b04d1, type: 2}
+  - {fileID: 11400000, guid: 6d1e2ec357272564ebd4dbf5b16d1908, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

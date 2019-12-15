@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: C2 - Transfer Cell Blockade
+  m_EditorClassIdentifier: 
+  titleText: Transfer Cell Blockade
+  storyText: "You use aeorbic and skillfully dodge bullets. Now you are sliding on
+    the hallway with handcuffs, in front of you are two guards. One guy tells you
+    to stop.\r\n\r\nWhat will you do next?\r\n\r\n1. Web Throw - Shoot spider web
+    from hand\r\n2. Tool Gun - Use the gun and some tools\r\n3. Item - Choose a random
+    item."
+  nextStates:
+  - {fileID: 11400000, guid: 3e78b0211f66a7f4099a9cc9d640b73f, type: 2}
+  - {fileID: 11400000, guid: 74bfde4482694ef479e1016b887d7e50, type: 2}
+  - {fileID: 11400000, guid: de8f8cf34dcb72b4c9a1543a1816531d, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 1
+  timeValue: 10
+  timedUpState: {fileID: 11400000, guid: c72c38fecd18cc348991c153a5cfdab5, type: 2}

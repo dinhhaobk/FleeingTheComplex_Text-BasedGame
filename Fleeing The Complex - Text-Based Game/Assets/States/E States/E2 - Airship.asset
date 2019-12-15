@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: E2 - Airship
+  m_EditorClassIdentifier: 
+  titleText: Airship
+  storyText: "The airship fires a drill pod into the room. Three gangster in there
+    come out and shoot down the guards. You quickly run to them. \r\n\r\nOne guy tells
+    you to quickly find a way to get on the airship.\r\n\r\nWhich ways will you choose
+    to get on the airship?\r\n\r\n1. Slingshot - Use it to shoot you into the airship.\r\n2.
+    Sick Ride -  Use a scooter to fly into the airship.\r\n3. Magnet - Use it to drag
+    you towards the airship."
+  nextStates:
+  - {fileID: 11400000, guid: e610ee8794d5fe643a83c352f3ac739c, type: 2}
+  - {fileID: 11400000, guid: e235b73b93744e44ea8b4d4fcd14dde5, type: 2}
+  - {fileID: 11400000, guid: 14a2cb3f3b77a5545980084180ee17f5, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

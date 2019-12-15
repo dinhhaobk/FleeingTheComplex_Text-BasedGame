@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A2 - Outside Security (Solo)
+  m_EditorClassIdentifier: 
+  titleText: Outside Security (Solo)
+  storyText: "You throw a whoppee cushion to them. They start arguing because they
+    thought the other person farted, then they fight intensely. Enlist at that time,
+    you run through and reach the outside security room.\r\n\r\nHowever, the room
+    is locked from the inside. In addition, there was a security guard standing guard
+    upstairs nearby.\r\n\r\nWhat will you do to climb above the security room?\r\n\r\n1.
+    Longshot - You use a hook gun.\r\n2. Spring - You use the spring from Sonic game.\r\n3.
+    Power Jump - You use power-up to get a super jump."
+  nextStates:
+  - {fileID: 11400000, guid: 240c689f84bcf2748ab4c088a52d36a8, type: 2}
+  - {fileID: 11400000, guid: 9728a1e41c8074146a3cd4df6e89f44b, type: 2}
+  - {fileID: 11400000, guid: 36835a1f798bf194080dd8f710c45f7c, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

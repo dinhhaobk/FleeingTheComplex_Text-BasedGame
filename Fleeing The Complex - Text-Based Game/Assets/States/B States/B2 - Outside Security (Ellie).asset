@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: B2 - Outside Security (Ellie)
+  m_EditorClassIdentifier: 
+  titleText: Outside Security (Ellie)
+  storyText: "Both split and suppress each guard easily. Then they go out and reach
+    the outside security room.\r\n\r\nHowever, the room is locked from the inside.
+    In addition, there was a security guard standing guard upstairs nearby.\r\n\r\nWhat
+    will you do to climb above the security room?\r\n\r\n1. Judo Throw - One person
+    gains momentum, the other will push you up.\r\n2. The Force - Using telekinesis
+    to lift you up.\r\n3. GraviToR v2.0 - A device can create gravity control circles
+    around the person."
+  nextStates:
+  - {fileID: 11400000, guid: 3711016bb1890064db1d216447ce5acf, type: 2}
+  - {fileID: 11400000, guid: 755ebb4d38689ae45a554503c5e4b913, type: 2}
+  - {fileID: 11400000, guid: 374035c8beb7c70478437a42757df624, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

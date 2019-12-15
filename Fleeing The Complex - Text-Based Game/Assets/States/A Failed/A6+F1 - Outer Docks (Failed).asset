@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A6+F1 - Outer Docks (Failed)
+  m_EditorClassIdentifier: 
+  titleText: Outer Docks (Failed)
+  storyText: "You can break into the cockpit of the ship, easily knock out the captain
+    and set sail. It was easy to escape, but suddenly a sailor appeared and stabbed
+    you from behind. You FAILED!\r\n\r\nP/s: Did you think none of the crew would
+    notice an unscheduled departure?\r\n\r\n1. Try again.\r\n2. Back to menu."
+  nextStates:
+  - {fileID: 11400000, guid: bf41a6e979fb82d4dae10b4de71b6a8a, type: 2}
+  - {fileID: 11400000, guid: 45a009ba14d96114da0b4d63b18026b8, type: 2}
+  isWin: 0
+  isFailed: 1
+  hasTimer: 0
+  timeValue: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: B4 - Two Elevators
+  m_EditorClassIdentifier: 
+  titleText: Two Elevators
+  storyText: "Ellie fires an electric shot at you, causing you to get shocked, continuously
+    firing and defeating three guards.\r\n\r\nThen they ran to the elevator. There
+    are two other guards in there. Ellie gives you two hats from the defeated guards.\r\n\r\nHow
+    will you use those two hats?\r\n\r\n1. Toss - Throw hats over to the other side.\r\n2.
+    Pass By - Put on the hat and walk past them.\r\n3. Blend In - Put on the hat and
+    talk to them."
+  nextStates:
+  - {fileID: 11400000, guid: d7e2a9b2e65cecb478a2f7f421f3ebc7, type: 2}
+  - {fileID: 11400000, guid: 9eecf8a9d55dc6846baf02fd874d8024, type: 2}
+  - {fileID: 11400000, guid: dcba5c0f136895f459a23ef92ea252d1, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

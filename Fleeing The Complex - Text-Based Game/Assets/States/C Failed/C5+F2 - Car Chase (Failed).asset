@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: C5+F2 - Car Chase (Failed)
+  m_EditorClassIdentifier: 
+  titleText: Car Chase (Timed Up)
+  storyText: "You sprung though flew out and hovered in the air. The guards discharge
+    bullets at you. You FAILED!\r\n\r\nP/s: You should've followed up with a tether
+    from your wrist strapped grapple hook.\r\n\r\n1. Try again.\r\n2. Back to menu."
+  nextStates:
+  - {fileID: 11400000, guid: 62f9758610aec0c4895b65b79d902caf, type: 2}
+  - {fileID: 11400000, guid: 45a009ba14d96114da0b4d63b18026b8, type: 2}
+  isWin: 0
+  isFailed: 1
+  hasTimer: 0
+  timeValue: 0
+  timedUpState: {fileID: 0}

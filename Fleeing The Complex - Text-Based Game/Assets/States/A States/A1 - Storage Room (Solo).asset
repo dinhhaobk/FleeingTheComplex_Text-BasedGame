@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A1 - Storage Room (Solo)
+  m_EditorClassIdentifier: 
+  titleText: Storage Room (Solo)
+  storyText: "You left the girl behind. Ellie will remember that :(\r\n\r\nYou find
+    the way to the storage room. In front of you are two guards of the storage door.
+    One holds the spear and the other is empty-handed.\r\n\r\nWhat will you do to
+    pass these guards?\r\n\r\n1. Command Melody - You play a music to order them.\r\n2.
+    Pickpocket - You steal the guard's belongings.\r\n3. Whoopee Cushion - You throw
+    it to distract them.\r\n4. Sprint - You run past 2 guards and ignore them."
+  nextStates:
+  - {fileID: 11400000, guid: 107e61890028c1d478dfb02d1eba35df, type: 2}
+  - {fileID: 11400000, guid: d8f1fa8272a958046bf3f967d79fa048, type: 2}
+  - {fileID: 11400000, guid: b0061868046515d40b9b60086a3619f5, type: 2}
+  - {fileID: 11400000, guid: cc77137d2565113438b3f6fd0d93ea45, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

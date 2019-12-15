@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: A3 - Elevator
+  m_EditorClassIdentifier: 
+  titleText: Elevator
+  storyText: "You jump up on the security room gently, uncovered by the guard. You
+    break into the room through a trapdoor. Here, you find the elevator door that
+    can lead you down.\r\n\r\nWhat will you do to go down through elevator way?\r\n\r\n1.
+    Balloon - You use a balloon to go down slowly.\r\n2. Button - You go down using
+    elevator normally.\r\n3. Bungee - You use a rope to jump down."
+  nextStates:
+  - {fileID: 11400000, guid: 2f11a787ac7b51d45bd645e286c53d25, type: 2}
+  - {fileID: 11400000, guid: 9b39e026b5bedc5418f8fba66343f4d0, type: 2}
+  - {fileID: 11400000, guid: e55f0fc4c73087f46b1082f08c856b87, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0

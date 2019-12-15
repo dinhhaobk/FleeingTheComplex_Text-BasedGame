@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51e0241b2564c489833f275a231202, type: 3}
+  m_Name: B3 - Hallway Standoff
+  m_EditorClassIdentifier: 
+  titleText: Hallway Standoff
+  storyText: "Ellie uses telekinesis to bring you up easily. You break into the room
+    and open the door, accidentally disabling the prison security system. Prisoners
+    run out of the room and cause chaos in the prison. You and Ellie run to the hallway.\r\n\r\nThen,
+    three guards with guns chasing behind you. Each person hiding behind a box on
+    either side.\r\n\r\nWhich weapons will you two use to fight them?\r\n\r\n1. Grenade
+    (You) + Crossbow (Ellie).\r\n2. Grenade (You) + Taser (Ellie).\r\n3. Sniper Rifle
+    (You) + Crossbow (Ellie).\r\n4. Sniper Rifle (You) + Taser (Ellie).\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 0839a3c0f2ae3094a907ded1480f6918, type: 2}
+  - {fileID: 11400000, guid: 946973ab9735d1b4a8270364505886ab, type: 2}
+  - {fileID: 11400000, guid: b7156f3241a22b1409cea1c7aca9a821, type: 2}
+  - {fileID: 11400000, guid: 3bdce67a072aef34d86426e42bc19f5d, type: 2}
+  isWin: 0
+  isFailed: 0
+  hasTimer: 0
+  timeValue: 0
