@@ -3,6 +3,9 @@
 - Unity version: `2018.4.12f1 LTS`
 - Platforms: `Android`
 
+## Stat eDesign
+Available on file **"Fleeing The Complex Design.pdf"**.
+
 ## Description
 This game is based on the same game of **PuffballsUnited**, but is designed on Text-Based Game category.
 
