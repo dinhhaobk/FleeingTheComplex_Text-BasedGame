@@ -3,7 +3,7 @@
 - Unity version: `2018.4.12f1 LTS`
 - Platforms: `Android`
 
-## Stat eDesign
+## State Design
 Available on file **"Fleeing The Complex Design.pdf"**.
 
 ## Description
